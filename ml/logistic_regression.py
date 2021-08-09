@@ -1,4 +1,3 @@
-
 """
 逻辑回归算法
 基本含义：https://easyai.tech/ai-definition/logistic-regression/#what
@@ -10,7 +9,7 @@ from sklearn.model_selection import train_test_split
 
 # 1.加载数据
 iris = datasets.load_iris()
-X = iris.data[:, :2]  # 使用前两个特征
+X = iris.data  # 使用前两个特征
 Y = iris.target
 
 # 2.拆分测试集、训练集。
